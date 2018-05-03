@@ -1,0 +1,52 @@
+E 
+C
+O
+Bottom row is all OOO...OC
+2nd row rules:
+If E -> E or O or C
+if C -> E
+if O -> O or C
+
+These rules are just restricted in higher rows.
+If E and below is E, only E
+If E and below is C, only E or C
+If E and below is O, then E or C or O
+if C and below is E, only E
+if C and below is C, only E
+if C and below is O, only E
+if O and below is E, impossible
+if O and below is C, only C
+if O and below is O, then O or C
+
+So for a h = 2, state is in ZZ^3, starting vector is [1,0,0]t
+
+matrix is 
+[1, 1, 0]
+[1, 0, 1]
+[1, 0, 1]
+
+
+Row 3 also has a state in ZZ^3, but since the outcome depends on the row below, we need a map ZZ^3(*)ZZ^3 to ZZ^3
+Might as well cast it as A:ZZ^3(*)ZZ^3 --> ZZ^3(*)ZZ^3
+It's just that post composing with the integration map ZZ^3(*)ZZ^3 --> ZZ^3 factors through the same map on the domain.
+
+A^2 v0 = [2,2,2]
+
+EE
+EC
+EO
+
+CE
+#CC
+#CO
+
+#OE
+OC
+OO
+
+
+
+
+
+
+

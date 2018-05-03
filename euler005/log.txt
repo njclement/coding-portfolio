@@ -1,0 +1,3 @@
+Completed April 18, 2017.
+Pretty easy.  Made a gcd function.
+

@@ -1,0 +1,20 @@
+
+x y = z
+(a digit)(b digit) = (c-digit)
+10^a * 10^b > xy = z >= 10^ c-1
+a + b > c - 1
+
+10^(a-1) 10^(b-1) <= xy = z < 10^c
+a + b - 2 < c 
+
+a + b - 2 < c < a + b + 1
+a + b - 1 <= c <= a + b
+now a + b + c = 9
+so either 2c = 9 (not happening)
+or c + 1 + c = 9
+
+So c = 4, a + b = 5
+
+(1) * (4) = (4)
+(2) * (3) = (4)
+

@@ -1,0 +1,32 @@
+(a - 1)^n + (a + 1)^n
+= (... + n*a - 1) + (... + n*a + 1) [ for n odd ]
+= 2n a [for n odd]
+
+= (... - n*a + 1) + (... + n*a + 1) [ for n even ]
+= ... + 2
+
+for a > 2, 2 isn't going to be the best modulo a^2,
+so it will always happen for n odd.
+
+This will be best when 2n a is biggest mod a^2 equiv 2n biggest mod a
+
+Prediction:
+a         a^2         max
+3         9           6
+4         16          8
+5         25          20
+6         36          24
+7         49          42
+8         64          484         16          8
+5         25          20
+6         36          24
+7         49          42
+8         64          484         16          8
+5         25          20
+6         36          24
+7         49          42
+8         64          484         16          8
+5         25          20
+6         36          24
+7         49          42
+8         64          48

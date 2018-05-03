@@ -1,0 +1,4 @@
+Completed April 18, 2017.
+First tried to make palindromes and then factor them. That was slow.
+Second attempt of creating products and checking if they were palindromes was much faster.
+

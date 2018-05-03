@@ -1,0 +1,2 @@
+Completed April 18, 2017.
+Pretty easy. Sieved for primes.  It was fast.

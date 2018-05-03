@@ -1,0 +1,29 @@
+m^e = m (mod pq)
+units group = ZZ/(p-1)(q-1)
+pick e relatively prime to (p-1)(q-1) so ^e corresponds to *e in the cyclic group.
+ex = x
+(e-1)x = 0
+So (e-1) should have few zero div in the ring ZZ/phi
+gcd(e-1,phi) = size of kernel. Yes.
+Say  d*N = e-1, d*M = phi
+map Cd to ZZ/phi by *M
+
+Coker ZZ/phi --> ZZ/phi *(e-1) is ZZ/(e-1,phi) = ZZ/gcd
+
+So for (e,phi) = 1, minimize gcd(e-1,phi) = 1
+
+This only counts the fixed points in the units.
+What about in pZZ/pq or qZZ/pq?
+These are cyclic groups of order q-1 and p-1, but ^e does not act 
+as *e. (pm)^e /= p(m^e)
+Instead we have <n> ->p* prim^n -> p^e prim ne -> <ne> + (e-1)log p
+
+x^e - x in ZZ/pq
+x(x^(e-1) - 1) in ZZ/pq
+
+ZZ/pq[x] V(x^(e-1) - 1)
+
+We want the ZZ/pq points of V(f)
+This is a Z/p point of V(f) \cap Z/p and the same for q
+
+We always have at least +/- 1 and zero in both fibers, so the min overall is 9
